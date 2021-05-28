@@ -1,0 +1,32 @@
+/*INDEX*/
+.Presupuesto{
+    background-color: rgb(253, 208, 82);
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: 2px 0px 2px 2px rgb(255, 238, 143);
+    color: white;
+    overflow: hidden;
+    @include animacion(3s, sliden);
+}
+
+.imagindex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    img{
+        width: 230px;
+        height: 150px;
+        margin: 3px;
+    }
+}
+.imagenindex:hover{
+    opacity: 0.3;
+  -webkit-transition: opacity 300ms;
+  -moz-transition: opacity 300ms;
+  -o-transition: opacity 300ms;
+  -ms-transition: opacity 300ms;
+  transition: opacity 300ms;
+}

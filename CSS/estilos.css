@@ -1,0 +1,267 @@
+/*ANIMACIONES INDEX*/
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+/*ANIMACIONES SECCIONES*/
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*ANIMACIONES INDEX*/
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+/*ANIMACIONES SECCIONES*/
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  font-family: lato, sans-serif;
+  background-color: white;
+  color: black; }
+
+/*nav*/
+nav {
+  background-color: #ffee8f;
+  box-shadow: black; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  padding-left: 30px; }
+
+.parHader {
+  display: flex;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  justify-content: center; }
+
+.textoMenu {
+  display: flex;
+  flex-grow: 0; }
+
+a {
+  text-decoration: none; }
+
+a:link {
+  color: black; }
+
+a:active, a:hover {
+  color: #fff476; }
+
+/*HEADER*/
+header {
+  margin-top: 100px; }
+
+.TituloPrincipal {
+  margin: 50px;
+  text-align: center; }
+  .TituloPrincipal img {
+    width: 300px;
+    height: 90px; }
+
+/*FOOTER*/
+footer {
+  background-color: #fdd052;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  font-size: 10px; }
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px; }
+  .redes i {
+    margin: 8px; }
+  .redes i:hover {
+    color: #d19f16; }
+
+/*INDEX*/
+.Presupuesto {
+  background-color: #fdd052;
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+  box-shadow: 2px 0px 2px 2px #ffee8f;
+  color: white;
+  overflow: hidden;
+  animation-duration: 3s;
+  animation-name: sliden; }
+
+.imagindex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px; }
+  .imagindex img {
+    width: 230px;
+    height: 150px;
+    margin: 3px; }
+
+.imagenindex:hover {
+  opacity: 0.3;
+  -webkit-transition: opacity 300ms;
+  -moz-transition: opacity 300ms;
+  -o-transition: opacity 300ms;
+  -ms-transition: opacity 300ms;
+  transition: opacity 300ms; }
+
+.TituloPrincipal {
+  margin: 15px; }
+
+.seccion1 {
+  margin: 60px; }
+  .seccion1 div {
+    text-align: center;
+    animation-duration: 4s;
+    animation-name: aparecer; }
+
+/*SERVICIOS*/
+section h4 {
+  animation-duration: 4s;
+  animation-name: aparecer;
+  background-color: #ffee8f;
+  text-align: center;
+  font-style: italic;
+  margin: 10px; }
+
+.texto {
+  text-align: center;
+  animation-duration: 4s;
+  animation-name: aparecer; }
+
+.row {
+  margin: 10px; }
+
+/*TESTIMONIOS*/
+.experiencia {
+  text-align: center;
+  margin-bottom: 15px;
+  animation-duration: 4s;
+  animation-name: aparecer; }
+
+.experienciacarousel {
+  width: 450px;
+  margin-left: 20px;
+  animation-duration: 4s;
+  animation-name: aparecer;
+  margin-bottom: 0px; }
+
+.comentario {
+  margin: 10px;
+  font-size: 10px;
+  text-align: center; }
+  .comentario textarea {
+    width: 400px; }
+  .comentario fieldset {
+    border: #f1be32 solid 1px;
+    animation-duration: 4s;
+    animation-name: aparecer;
+    padding: 10px; }
+
+/*CONTACTO*/
+.contacto {
+  text-align: center;
+  margin-bottom: 50px; }
+
+hr {
+  width: 270px;
+  margin-left: 110px; }
+
+.form4 {
+  animation-duration: 4s;
+  animation-name: aparecer;
+  margin: 15px; }
+  .form4 div label {
+    margin: 7px; }
+  .form4 div input {
+    background-color: beige;
+    border: beige solid 1px;
+    text-align: center; }
+  .form4 div select {
+    background-color: beige;
+    padding: 10px;
+    border: beige solid 1px;
+    border-radius: 5px; }
+
+/*PARA TABLET*/
+@media only screen and (min-width: 600px) {
+  /*HEADER*/
+  .TituloPrincipal {
+    margin: 50px;
+    text-align: center; }
+    .TituloPrincipal img {
+      width: 400px;
+      height: 110px; } }
+
+/*PARA COMPU*/
+@media only screen and (min-width: 1200px) {
+  .TituloPrincipal {
+    margin: 50px;
+    text-align: center; }
+    .TituloPrincipal img {
+      width: 900px;
+      height: 280px; }
+  /*FOOTER*/
+  footer {
+    font-size: 15px; }
+  /*INDEX*/
+  .Presupuesto {
+    font-size: 20px; }
+  .imagindex img {
+    width: 300px;
+    height: 230px;
+    margin: 3px; }
+  /*SOBRE NOSOTROS*/
+  .empresa img {
+    width: 300px;
+    height: 350px; }
+  .textotrabajo {
+    padding-top: 15px; }
+  /*SERVICIOS*/
+  .Servicios img {
+    width: 400px;
+    height: 300px; }
+  section h4 {
+    margin: 15px; }
+  .texto {
+    padding-top: 30px; }
+  /*TESTIMONIOS*/
+  .experienciacarousel {
+    width: 900px;
+    margin-left: 240px; }
+  .comentario {
+    margin-top: 30px; }
+    .comentario textarea {
+      width: 1000px;
+      height: 200px; }
+  /*CONTACTO*/
+  .form4 textarea {
+    width: 900px;
+    height: 100px; }
+  .contacto hr {
+    width: 500px;
+    margin-left: 430px; } }

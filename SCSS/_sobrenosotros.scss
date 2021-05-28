@@ -1,0 +1,10 @@
+.TituloPrincipal{
+    margin: 15px;
+}
+
+.seccion1{
+    margin: 60px;
+ div{
+    text-align: center;
+    @include animacion(4s, aparecer);}
+}

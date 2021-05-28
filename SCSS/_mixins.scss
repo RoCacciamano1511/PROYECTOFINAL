@@ -1,0 +1,20 @@
+@mixin tamaños ($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin animacion ($animation-duration, $animation-name){
+    animation-duration: $animation-duration;
+    animation-name: $animation-name;
+}
+
+
+@mixin tamaños ($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin animacion ($animation-duration, $animation-name){
+    animation-duration: $animation-duration;
+    animation-name: $animation-name;
+}

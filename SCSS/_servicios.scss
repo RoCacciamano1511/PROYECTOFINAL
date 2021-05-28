@@ -1,0 +1,17 @@
+/*SERVICIOS*/
+section h4{
+    animation-duration: 4s;
+    animation-name: aparecer;
+    background-color: rgb(255,238,143);
+    text-align: center;
+    font-style: italic;
+    margin: 10px;
+}
+
+.texto{
+    text-align: center;
+    @include animacion(4s, aparecer);
+}
+.row{
+    margin: 10px;
+}

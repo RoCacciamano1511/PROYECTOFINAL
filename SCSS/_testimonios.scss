@@ -1,0 +1,24 @@
+/*TESTIMONIOS*/
+.experiencia{
+    text-align: center;
+    margin-bottom: 15px;
+    @include animacion(4s, aparecer);
+}
+.experienciacarousel{
+    width: 450px;
+    margin-left: 20px;
+    @include animacion(4s, aparecer);
+    margin-bottom: 0px;
+}
+
+.comentario{
+    margin: 10px;
+    font-size: 10px;
+    text-align: center;
+    textarea{
+    width: 400px;}
+    fieldset{
+    border: rgb(241, 190, 50) solid 1px;
+    @include animacion(4s, aparecer);
+    padding: 10px;}
+}

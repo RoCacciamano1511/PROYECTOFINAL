@@ -1,0 +1,88 @@
+/*PARA TABLET*/
+@media only screen and (min-width: 600px) {
+    /*HEADER*/
+    .TituloPrincipal{
+     margin: 50px;
+     text-align: center;
+    img{
+        @include tamaños(400px, 110px);}
+    }
+}
+
+
+ /*PARA COMPU*/
+ @media only screen and (min-width: 1200px){
+     .TituloPrincipal{
+         margin: 50px;
+         text-align: center;
+        img{
+        @include tamaños(900px, 280px);}
+    }
+     
+    /*FOOTER*/
+    footer{
+        font-size: 15px;
+    }
+     
+
+
+    /*INDEX*/
+    .Presupuesto{
+        font-size: 20px;
+    }
+ 
+    .imagindex img{
+        @include tamaños(300px, 230px);
+        margin: 3px;
+    }
+    
+
+
+    /*SOBRE NOSOTROS*/
+    .empresa img{
+        @include tamaños(300px, 350px);
+    }
+ 
+    .textotrabajo{
+        padding-top: 15px;
+    }
+
+
+ 
+    /*SERVICIOS*/
+    .Servicios img{
+        @include tamaños(400px, 300px);
+    }
+    section h4{
+        margin: 15px;
+    }
+     .texto{
+        padding-top: 30px;
+    }
+ 
+
+
+    /*TESTIMONIOS*/
+    .experienciacarousel{
+        width: 900px;
+        margin-left: 240px;
+    }
+ 
+    .comentario{
+        margin-top: 30px;
+        textarea{
+        @include tamaños(1000px, 200px);}
+    }
+ 
+
+
+    /*CONTACTO*/
+    .form4 textarea{
+        @include tamaños(900px, 100px);
+    }
+ 
+    .contacto hr{
+        width: 500px;
+        margin-left: 430px;
+    }
+}
