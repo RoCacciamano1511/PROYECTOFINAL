@@ -1,10 +1,21 @@
+/*SECCION 1 - SOBRE NOSOTROS*/
+
 .TituloPrincipal{
     margin: 15px;
+    font-weight: bolder;
+    color: #a98052;
+    @include animacion(5s, slidein);
 }
 
 .seccion1{
     margin: 60px;
+    font-size: 15px;
  div{
     text-align: center;
     @include animacion(4s, aparecer);}
+}
+
+.empresaimg{
+    @include tamaños(300px,400px);
+    margin-left: 90px;
 }

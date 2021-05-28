@@ -1,4 +1,11 @@
 /*INDEX*/
+.FondoIndex{
+    text-align: center;
+    margin-bottom: 40px;
+    img{
+    width: 400px;
+    height: 150px;}
+}
 .Presupuesto{
     background-color: rgb(253, 208, 82);
     margin-top: 10px;
@@ -7,8 +14,14 @@
     box-shadow: 2px 0px 2px 2px rgb(255, 238, 143);
     color: white;
     overflow: hidden;
-    @include animacion(3s, sliden);
+    @include animacion(5s, sliden);
+    a{
+    color: black;}
 }
+.Presupuesto a:hover{
+    color: white;
+}
+
 
 .imagindex{
     display: flex;
@@ -16,6 +29,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 10px;
+    @include animacion(5s, aparecer);
     img{
         width: 230px;
         height: 150px;

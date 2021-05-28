@@ -7,6 +7,31 @@
     img{
         @include tamaños(400px, 110px);}
     }
+
+    /*INDEX*/
+    .FondoIndex img{
+        @include tamaños(800px,320px);
+    }
+
+    /*SECCION 1 - SOBRE NOSOTROS*/
+    .trabajamos{
+        margin-top: 50px;
+    }
+    .empresaimg{
+        margin-left: 300px;
+    }
+
+    /*SECCION 3 - TESTIMONIOS*/
+    .carousel{
+        text-align: center;        
+        width: 800px;
+    }
+
+    /*SECCION 4 - CONTACTO*/
+    .my-4{
+        display: none;
+    }
+
 }
 
 
@@ -35,12 +60,20 @@
         @include tamaños(300px, 230px);
         margin: 3px;
     }
-    
+
+    .FondoIndex img{
+        @include tamaños(auto,auto);
+    }
 
 
-    /*SOBRE NOSOTROS*/
+
+    /*SECCION 1 - SOBRE NOSOTROS*/ 
+   .trabajamos{
+    margin-top: 30px;
+    }
     .empresa img{
         @include tamaños(300px, 350px);
+        margin-left: auto;
     }
  
     .textotrabajo{
@@ -49,7 +82,10 @@
 
 
  
-    /*SERVICIOS*/
+    /*SECCION 2 - SERVICIOS*/
+    .ServicioFlia{
+        margin-top: 60px;
+    }
     .Servicios img{
         @include tamaños(400px, 300px);
     }
@@ -62,10 +98,11 @@
  
 
 
-    /*TESTIMONIOS*/
+    /*SECCION 3 - TESTIMONIOS*/
     .experienciacarousel{
         width: 900px;
         margin-left: 240px;
+        text-align: center;
     }
  
     .comentario{
@@ -76,13 +113,18 @@
  
 
 
-    /*CONTACTO*/
+    /*SECCION 4 - CONTACTO*/
     .form4 textarea{
         @include tamaños(900px, 100px);
     }
  
-    .contacto hr{
+    .my-4 {
+        display: block;
         width: 500px;
-        margin-left: 430px;
+        margin-left: 460px;
+    }
+    
+    .formularioevento{
+        margin-top: 60px;
     }
 }

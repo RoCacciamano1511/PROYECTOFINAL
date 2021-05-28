@@ -35,11 +35,26 @@ a:link{
     color: black;
 }
 
-a:active{
-    color: $cool-dorado;  
+.nav-item a:hover{
+    color: #d19f16;
 }
-a:hover{
-    @extend a:active;
+
+.nav-item a:link{
+    color: black;
+}
+  
+.navbar-imagen{
+    @include animacion (5s, animacionLogo);
+    animation-iteration-count: infinite;
+    @include tamaños (20px,30px);
+    margin-left: 0px;
+}
+  
+.nav-link{
+    transition: transform .8s;
+}
+.nav-link:hover{
+    transform: scale(1.1);
 }
 
 /*HEADER*/
@@ -65,12 +80,25 @@ footer{
     margin-top: 10px;
     font-size: 10px;
 }
+
+.redes i:hover{
+    color: rgb(209, 159, 22);
+}
+.redes a:link{
+    color: black;
+}
+.redes a:visited{
+    color: black;
+}
+
 .redes{
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-i{
+    i{
     margin: 8px;}
-i:hover{
-    color: rgb(209, 159, 22);}
 }
+
+
+
+

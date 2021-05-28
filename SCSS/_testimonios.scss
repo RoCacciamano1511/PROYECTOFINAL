@@ -1,9 +1,18 @@
-/*TESTIMONIOS*/
+/*SECCION 3 - TESTIMONIOS*/
+
 .experiencia{
     text-align: center;
     margin-bottom: 15px;
-    @include animacion(4s, aparecer);
+    @include animacion(8s, aparecer);
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
 }
+
+.experiencia:hover{
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
 .experienciacarousel{
     width: 450px;
     margin-left: 20px;
@@ -18,7 +27,24 @@
     textarea{
     width: 400px;}
     fieldset{
-    border: rgb(241, 190, 50) solid 1px;
-    @include animacion(4s, aparecer);
     padding: 10px;}
 }
+
+.comentario__legend{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.comentario__legend:hover{
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+.btn{
+    transition: transform 1s;
+}
+
+.btn:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+  

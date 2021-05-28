@@ -1,17 +1,41 @@
-/*SERVICIOS*/
+/*SECCION - SERVICIOS*/
 section h4{
-    animation-duration: 4s;
-    animation-name: aparecer;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
     background-color: rgb(255,238,143);
     text-align: center;
     font-style: italic;
     margin: 10px;
 }
 
+section  h4:hover{
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+}
+
+.ServicioEmpresa{
+    margin: 30px;
+    p{
+        @include animacion(8s,aparecer);
+        margin-top: 30px;
+        margin-bottom: 30px;}
+        img{
+            transition: transform 1s;
+        }
+
+}
+
+.ServicioEmpresa:hover img{
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+}
+
+.Servicio{
+    margin: 40px;
+}
+.ServicioFlia{
+    margin-top: 40px;
+}
+
 .texto{
     text-align: center;
-    @include animacion(4s, aparecer);
-}
-.row{
-    margin: 10px;
 }

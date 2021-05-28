@@ -1,9 +1,9 @@
-/*CONTACTO*/
+/*SECCION 4 - CONTACTO*/
 .contacto{
     text-align: center;
     margin-bottom: 50px;
 }
-hr{
+.my-4{
     width: 270px;
     margin-left: 110px;
 }
@@ -21,4 +21,21 @@ hr{
     padding: 10px;
     border: $cool-beige solid 1px;
     border-radius: 5px;}
+    textarea{
+    @include tamaños(250px,100px);}
+}
+
+.form4__legend{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.form4__legend:hover{
+    -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+}
+
+.formularioevento{
+    @include animacion(6s, slidein);
+   margin-top: 40px;
 }
