@@ -36,7 +36,9 @@ body {
 /*nav*/
 nav {
   background-color: #ffee8f;
-  box-shadow: black; }
+  box-shadow: black;
+  animation-duration: 4s;
+  animation-name: aparecer; }
 
 .navbar-light .navbar-nav .nav-link {
   color: black;
@@ -133,7 +135,7 @@ footer {
   color: white;
   overflow: hidden;
   animation-duration: 5s;
-  animation-name: sliden; }
+  animation-name: slidein; }
   .Presupuesto a {
     color: black; }
 
@@ -179,8 +181,13 @@ footer {
 
 .empresaimg {
   width: 300px;
-  height: 400px;
-  margin-left: 90px; }
+  height: 350px;
+  margin-left: 40px;
+  transition: transform 1s; }
+
+.empresaimg:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
 
 /*SECCION - SERVICIOS*/
 section h4 {
@@ -269,7 +276,8 @@ section h4:hover {
 
 .my-4 {
   width: 270px;
-  margin-left: 110px; }
+  margin-left: 110px;
+  text-align: center; }
 
 .form4 {
   animation-duration: 4s;
@@ -287,12 +295,14 @@ section h4:hover {
     border: beige solid 1px;
     border-radius: 5px; }
   .form4 textarea {
-    width: 250px;
+    width: 200px;
     height: 100px; }
 
 .form4__legend {
   -webkit-transition: 1s linear;
-  transition: 1s linear; }
+  transition: 1s linear;
+  color: #a98052;
+  font-weight: 15px; }
 
 .form4__legend:hover {
   -webkit-transform: translateY(10px);
@@ -381,11 +391,11 @@ section h4:hover {
       height: 200px; }
   /*SECCION 4 - CONTACTO*/
   .form4 textarea {
-    width: 900px;
+    width: 300px;
     height: 100px; }
   .my-4 {
     display: block;
-    width: 500px;
-    margin-left: 460px; }
+    width: 430px;
+    margin-left: 500px; }
   .formularioevento {
     margin-top: 60px; } }

@@ -20,6 +20,7 @@
     .empresaimg{
         margin-left: 300px;
     }
+   
 
     /*SECCION 3 - TESTIMONIOS*/
     .carousel{
@@ -115,16 +116,18 @@
 
     /*SECCION 4 - CONTACTO*/
     .form4 textarea{
-        @include tamaños(900px, 100px);
+        @include tamaños(300px, 100px);
     }
  
     .my-4 {
         display: block;
-        width: 500px;
-        margin-left: 460px;
+        width: 430px;
+        margin-left: 500px;
     }
     
     .formularioevento{
         margin-top: 60px;
     }
+
+    
 }

@@ -6,12 +6,13 @@
 .my-4{
     width: 270px;
     margin-left: 110px;
+    text-align: center;
 }
 .form4{
     @include animacion(4s, aparecer);
-    margin: 15px;
-    div label{
-    margin: 7px;}
+    margin: 15px; 
+    div label {
+    margin: 7px;} 
     div input{
     background-color: $cool-beige;
     border: $cool-beige solid 1px;
@@ -19,15 +20,17 @@
     div select{
     background-color: $cool-beige;
     padding: 10px;
-    border: $cool-beige solid 1px;
-    border-radius: 5px;}
+    border: beige solid 1px;
+    border-radius: 5px; }
     textarea{
-    @include tamaños(250px,100px);}
+    @include tamaños(200px,100px);}
 }
 
 .form4__legend{
     -webkit-transition: 1s linear;
     transition: 1s linear;
+    color:$cool-marron;
+    font-weight: 15px;
 }
 
 .form4__legend:hover{
@@ -39,3 +42,4 @@
     @include animacion(6s, slidein);
    margin-top: 40px;
 }
+

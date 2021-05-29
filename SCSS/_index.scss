@@ -14,7 +14,7 @@
     box-shadow: 2px 0px 2px 2px rgb(255, 238, 143);
     color: white;
     overflow: hidden;
-    @include animacion(5s, sliden);
+    @include animacion(5s, slidein);
     a{
     color: black;}
 }

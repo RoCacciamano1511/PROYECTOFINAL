@@ -13,6 +13,7 @@ body{
 nav{
     background-color: rgb(255,238,143);
     box-shadow: black;
+    @include animacion(4s, aparecer);
 }
 .navbar-light .navbar-nav .nav-link {
     color: black;

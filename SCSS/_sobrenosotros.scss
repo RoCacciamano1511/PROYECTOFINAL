@@ -3,7 +3,7 @@
 .TituloPrincipal{
     margin: 15px;
     font-weight: bolder;
-    color: #a98052;
+    color: $cool-marron;
     @include animacion(5s, slidein);
 }
 
@@ -16,6 +16,11 @@
 }
 
 .empresaimg{
-    @include tamaños(300px,400px);
-    margin-left: 90px;
+    @include tamaños(300px,350px);
+    margin-left: 40px;
+    transition: transform 1s;
+}
+
+.empresaimg:hover{
+    -webkit-transform:scale(1.1);transform:scale(1.1);
 }
