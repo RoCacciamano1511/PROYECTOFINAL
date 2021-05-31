@@ -15,12 +15,12 @@
     @include animacion(4s, aparecer);}
 }
 
-.empresaimg{
+.empresa__img{
     @include tamaños(300px,350px);
     margin-left: 40px;
     transition: transform 1s;
 }
 
-.empresaimg:hover{
+.empresa__img:hover{
     -webkit-transform:scale(1.1);transform:scale(1.1);
 }

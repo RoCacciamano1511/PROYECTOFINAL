@@ -155,7 +155,7 @@ footer {
     height: 150px;
     margin: 3px; }
 
-.imagenindex:hover {
+.imagindex__img:hover {
   opacity: 0.3;
   -webkit-transition: opacity 300ms;
   -moz-transition: opacity 300ms;
@@ -179,13 +179,13 @@ footer {
     animation-duration: 4s;
     animation-name: aparecer; }
 
-.empresaimg {
+.empresa__img {
   width: 300px;
   height: 350px;
   margin-left: 40px;
   transition: transform 1s; }
 
-.empresaimg:hover {
+.empresa__img:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1); }
 
@@ -202,17 +202,17 @@ section h4:hover {
   -webkit-transform: translateY(20px);
   transform: translateY(20px); }
 
-.ServicioEmpresa {
+.Servicio__Empresa {
   margin: 30px; }
-  .ServicioEmpresa p {
+  .Servicio__Empresa p {
     animation-duration: 8s;
     animation-name: aparecer;
     margin-top: 30px;
     margin-bottom: 30px; }
-  .ServicioEmpresa img {
+  .Servicio__Empresa img {
     transition: transform 1s; }
 
-.ServicioEmpresa:hover img {
+.Servicio__Empresa:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1); }
 
@@ -222,7 +222,7 @@ section h4:hover {
 .ServicioFlia {
   margin-top: 40px; }
 
-.texto {
+.Servicio__Empresa-texto {
   text-align: center; }
 
 /*SECCION 3 - TESTIMONIOS*/
@@ -329,11 +329,10 @@ section h4:hover {
   /*SECCION 1 - SOBRE NOSOTROS*/
   .trabajamos {
     margin-top: 50px; }
-  .empresaimg {
+  .empresa__img {
     margin-left: 300px; }
   /*SECCION 3 - TESTIMONIOS*/
   .carousel {
-    text-align: center;
     width: 800px; }
   /*SECCION 4 - CONTACTO*/
   .my-4 {
@@ -367,7 +366,7 @@ section h4:hover {
     width: 300px;
     height: 350px;
     margin-left: auto; }
-  .textotrabajo {
+  .trabajamos__texto {
     padding-top: 15px; }
   /*SECCION 2 - SERVICIOS*/
   .ServicioFlia {
@@ -377,7 +376,7 @@ section h4:hover {
     height: 300px; }
   section h4 {
     margin: 15px; }
-  .texto {
+  .Servicio__Empresa-texto {
     padding-top: 30px; }
   /*SECCION 3 - TESTIMONIOS*/
   .experienciacarousel {

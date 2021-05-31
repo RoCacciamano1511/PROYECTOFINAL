@@ -13,7 +13,7 @@ section  h4:hover{
     transform: translateY(20px);
 }
 
-.ServicioEmpresa{
+.Servicio__Empresa{
     margin: 30px;
     p{
         @include animacion(8s,aparecer);
@@ -25,7 +25,7 @@ section  h4:hover{
 
 }
 
-.ServicioEmpresa:hover img{
+.Servicio__Empresa:hover img{
     -webkit-transform:scale(1.1);transform:scale(1.1);
 }
 
@@ -36,6 +36,6 @@ section  h4:hover{
     margin-top: 40px;
 }
 
-.texto{
+.Servicio__Empresa-texto{
     text-align: center;
 }
